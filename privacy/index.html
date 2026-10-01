@@ -4,74 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Clovis Privacy Policy</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../icon-32.png">
-<link rel="apple-touch-icon" href="../icon-180.png">
+<link rel="canonical" href="https://clovisbot.app/privacy">
+<meta http-equiv="refresh" content="0; url=https://clovisbot.app/privacy">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <main>
-  <header><a href="../">← Clovis</a></header>
-  <h1>Privacy Policy</h1>
-  <p class="meta">Effective September 23, 2026 · Updated October 1, 2026</p>
-
-  <p>Clovis is a Discord bot that schedules Destiny 2 raids and dungeons. It is run by an individual developer ("I", "me"). This policy explains what Clovis stores, why, and how to have it deleted. The short version: Clovis only keeps what it needs to run its scheduling features, never sells anything, and you can delete your data at any time with <code>/clovis forget-me</code>.</p>
-
-  <h2>What Clovis stores</h2>
-  <p><strong>From Discord</strong>, when you use Clovis in a server:</p>
-  <ul>
-    <li>Your Discord user ID, and the IDs of the servers, channels, roles and messages Clovis works with.</li>
-    <li>Your poll answers: the days, times and activities you pick, and any per-day time changes.</li>
-    <li>Your answers on pickup posts (<code>/clovis lfg</code>): in, dungeon only or maybe.</li>
-    <li>Your timezone preference and whether you want reminders by DM, if you set them.</li>
-    <li>Your roster sign-ups (joined, tentative or waitlisted) and whether you joined for mechanics or ad clear.</li>
-    <li>Server settings chosen by that server's organizers, such as the timezone, default start time and roles to ping.</li>
-    <li>Callout maps organizers save: the map's name and the ID of the Discord message that holds the image. The image itself stays in Discord, and deleting that message removes it.</li>
-  </ul>
-  <p>Clovis does <strong>not</strong> read or store the content of messages people send in your server.</p>
-
-  <p><strong>From Bungie</strong>, only if a Bungie account is linked with <code>/clovis link</code>:</p>
-  <ul>
-    <li>The Bungie name and Destiny membership ID of the linked account.</li>
-    <li>Whether that account owns each raid and dungeon exotic Clovis tracks, and when this was last checked.</li>
-    <li>How many times that account has cleared each raid and dungeon, and its fastest time for each (from Bungie's activity stats), refreshed about twice a day and after runs.</li>
-  </ul>
-  <p><strong>Sign in with Bungie</strong> (optional): if you link by signing in on bungie.net, Bungie tells Clovis your Bungie.net account ID, which Clovis uses once to look up your Destiny accounts. Clovis doesn't keep the sign-in token, can't act on your account, and only asks Bungie for basic read access. Your link is marked as verified.</p>
-  <p><strong>The website</strong> (optional): the dashboard at <a href="https://clovisbot.app/app">clovisbot.app</a> lets you sign in with Discord. Discord tells Clovis your user ID, name, avatar and the list of servers you're in. Clovis uses that once to show the servers you share with it, then revokes the sign-in token: it can't read your messages or act on your account. Your browser keeps a signed cookie with your Discord ID, name, avatar and those shared server IDs for up to 7 days so you stay signed in; signing out deletes it. The site stores nothing new about you. It shows what Clovis already has (clears, fastest times, exotics, titles and run history) to members of the same server, and checks with Discord that you're still a member each time you open a server's page.</p>
-  <p><strong>Clans:</strong> if a server connects its Destiny clan, Clovis stores that clan's ID and name for the server and reads Bungie's public member list to show who's in it.</p>
-  <p>This information is public on Bungie.net for accounts whose privacy settings allow it. Server organizers can link a member's account on their behalf. Around each scheduled run, and about every 20 minutes in servers that turn on run reports (<code>/clovis reports</code>), Clovis also reads the linked players' recent activity history and post-game reports from Bungie to post recaps of raid and dungeon runs. Recaps are posted in Discord. The raw activity data is not stored; Clovis only keeps the IDs of runs it has already posted, so it doesn't post them twice.</p>
-
-  <h2>How it's used</h2>
-  <p>Only to provide Clovis's features: tallying polls, suggesting start times, managing rosters, sending reminders, showing who still needs an exotic, announcing exotic drops, and posting recaps. Much of this is shown to other members of the server where you use Clovis, for example your name on a roster or poll, in Discord and on the website. If you turn your titles off (<code>/clovis titles</code> or the website), they're hidden from everyone in both places.</p>
-
-  <h2>Sharing</h2>
-  <ul>
-    <li>I don't sell, rent or trade your data, and don't use it for advertising.</li>
-    <li>Clovis runs on <a href="https://railway.com">Railway</a> (hosting, United States). The website at clovisbot.app is served through <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>, which handles the connection to your browser. It talks to <a href="https://discord.com/privacy">Discord</a> and <a href="https://www.bungie.net/7/en/Legal/PrivacyPolicy">Bungie</a> through their APIs, and their own privacy policies apply to data held on their platforms.</li>
-    <li>Daily backups of Clovis's database are stored in a private Discord channel that only I can access.</li>
-  </ul>
-
-  <h2>How long it's kept, and deleting it</h2>
-  <ul>
-    <li>Data is kept while Clovis is in use. Old polls and runs stay so that features like "same as last time" and exotic tracking keep working.</li>
-    <li><strong><code>/clovis forget-me</code></strong> immediately deletes your linked Bungie account, timezone, poll answers and roster sign-ups from every server that uses Clovis. <code>/clovis unlink</code> removes just the Bungie link.</li>
-    <li>Backups are deleted after 30 days, so deleted data is fully gone within 30 days.</li>
-    <li>If a server removes Clovis, its weekly posts stop. A server owner can email me to delete that server's settings and history.</li>
-    <li>You can also email <a href="mailto:burland313@gmail.com">burland313@gmail.com</a> to ask what's stored about you or to have it deleted.</li>
-  </ul>
-
-  <h2>Security</h2>
-  <p>Data is stored on a private hosted volume and in private backups. No system is perfectly secure, but access is limited to me.</p>
-
-  <h2>Children</h2>
-  <p>Clovis is meant for people who meet Discord's minimum age requirement. It does not knowingly collect data from anyone younger.</p>
-
-  <h2>Changes</h2>
-  <p>If this policy changes, the updated version will be posted here with a new effective date.</p>
-
-  <h2>Contact</h2>
-  <p>Ask in the <a href="https://discord.gg/Kxr7ddPRrA">Clovis support server</a>, or email <a href="mailto:burland313@gmail.com">burland313@gmail.com</a>.</p>
-
-  <footer>Clovis is a fan-made bot and is not affiliated with or endorsed by Bungie. Destiny is a trademark of Bungie, Inc.</footer>
+  <h1><span>Clovis</span> has moved</h1>
+  <p>This page is now at <a href="https://clovisbot.app/privacy">clovisbot.app/privacy</a>.</p>
 </main>
+<script>location.replace('https://clovisbot.app/privacy');</script>
 </body>
 </html>
